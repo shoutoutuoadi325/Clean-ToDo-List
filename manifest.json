@@ -1,42 +1,43 @@
 {
-"name": "ToDo List",
-"short_name": "ToDo",
-"start_url": "https://proud-cliff-0dcafcf00.6.azurestaticapps.net/",
-"display": "standalone",
-"description": "A clean and simple ToDo List application that helps you manage your tasks efficiently.",
-"lang": "en",
-"dir": "auto",
-"theme_color": "#000000",
-"background_color": "#000000",
-"orientation": "any",
-"icons": [
+  "name": "Clean ToDo List",
+  "short_name": "ToDo",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "A clean and simple progressive web application for managing your ToDo tasks",
+  "lang": "en-US",
+  "dir": "auto",
+  "theme_color": "#1976D2",
+  "background_color": "#FFFFFF",
+  "orientation": "any",
+  "icons": [
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
     }
-],
-"screenshots": [
+  ],
+  "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-        "sizes": "2880x1800",
-        "type": "image/png",
-        "description": "A screenshot of the home page"
+      "src": "homepage screenshot.jpeg",
+      "sizes": "2880x1800",
+      "type": "image/jpeg",
+      "description": "A screenshot of the home page"
     }
-],
-"prefer_related_applications": false,
-"shortcuts": [
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
     {
-        "name":"ToDo List",
-        "url":"/shortcut",
-        "description":"A shortcut to quickly access the ToDo List"
+      "name": "Add Task",
+      "url": "?action=add",
+      "description": "Add a new task"
     }
-]
+  ]
 }
